@@ -1,0 +1,1197 @@
+[ 2016-03-18T15:54:54+08:00 ] 127.0.0.1 /tp/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T15:55:42+08:00 ] 127.0.0.1 /tp/home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `user` WHERE ( is_ban=0 and is_public=1 ) ORDER BY vote_number desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined offset: 6 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined offset: 7 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined offset: 8 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined offset: 9 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: no5 D:\wamp\www\tp\Application\Runtime\Cache\Home\b9d8569fb4b13f0298ae898c51b036b1.php 第 105 行.
+NOTIC: [8] Undefined variable: no5 D:\wamp\www\tp\Application\Runtime\Cache\Home\b9d8569fb4b13f0298ae898c51b036b1.php 第 107 行.
+NOTIC: [8] Undefined variable: no5 D:\wamp\www\tp\Application\Runtime\Cache\Home\b9d8569fb4b13f0298ae898c51b036b1.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T15:55:59+08:00 ] 127.0.0.1 /tp/home/index/vote/uid/1120131203.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T15:55:59+08:00 ] 127.0.0.1 /tp/home/user/login.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T15:55:59+08:00 ] 127.0.0.1 /tp/home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T15:56:04+08:00 ] 127.0.0.1 /tp/home/index/vote/uid/1120131205.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T15:56:04+08:00 ] 127.0.0.1 /tp/home/user/login.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T15:58:36+08:00 ] 127.0.0.1 /tp/home/index/vote/uid/1120131203.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T15:58:36+08:00 ] 127.0.0.1 /tp/home/user/login.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T15:58:45+08:00 ] 127.0.0.1 /tp/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `password` FROM `user` WHERE `uid` = 1120131205 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `password` FROM `user` WHERE `uid` = 1120131205 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\tp\Application\Home\Controller\UserController.class.php 第 40 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.004000s ]
+
+[ 2016-03-18T15:58:46+08:00 ] 127.0.0.1 /tp/home/user/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\tp\ThinkPHP\Library\Think\Model.class.php 第 222 行.
+SQL: SELECT `vote_number` FROM `user` WHERE ( uid=1120131205 )  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T15:58:46+08:00 ] 127.0.0.1 /tp/home/user/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\tp\ThinkPHP\Library\Think\Model.class.php 第 222 行.
+SQL: SELECT `vote_number` FROM `user` WHERE ( uid=1120131205 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T15:59:01+08:00 ] 127.0.0.1 /tp/home/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: admin D:\wamp\www\tp\Application\Home\Common\function.php 第 28 行.
+
+[ 2016-03-18T15:59:01+08:00 ] 127.0.0.1 /tp/home/admin/login.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T15:59:07+08:00 ] 127.0.0.1 /tp/home/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\tp\Application\Home\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0020s ]
+SQL: INSERT INTO `admin` (`admin_login_ip`) VALUES ('127.0.0.1') [ RunTime:0.1710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.290017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.287017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.290017s ]
+
+[ 2016-03-18T15:59:08+08:00 ] 127.0.0.1 /tp/home/admin/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column 'time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY time desc LIMIT 0,10  
+ERR: 1054:Unknown column 'time' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY time desc LIMIT 0,10  
+
+[ 2016-03-18T16:03:07+08:00 ] 127.0.0.1 /tp/home/admin/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0010s ]
+ERR: 模板不存在:./html/Admin/index.html
+
+[ 2016-03-18T16:04:11+08:00 ] 127.0.0.1 /tp/home/admin/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:04:11+08:00 ] 127.0.0.1 /tp/home/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Css
+
+[ 2016-03-18T16:04:11+08:00 ] 127.0.0.1 /tp/home/admin/introduction.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:introduction.css
+
+[ 2016-03-18T16:04:51+08:00 ] 127.0.0.1 /tp/home/admin/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:04:59+08:00 ] 127.0.0.1 /tp/home/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:05:06+08:00 ] 127.0.0.1 /tp/home/admin/ban_user/uid/1120131205
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0070s ]
+SQL: UPDATE `user` SET `is_ban`='1' WHERE `uid` = 1120131205 [ RunTime:0.1070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:05:07+08:00 ] 127.0.0.1 /tp/home/admin/ban_user/uid/Home/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: UPDATE `user` SET `is_ban`='1' WHERE `uid` = 0 [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:05:08+08:00 ] 127.0.0.1 /tp/home/admin/ban_user/uid/Home/Admin/Home/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: UPDATE `user` SET `is_ban`='1' WHERE `uid` = 0 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:05:09+08:00 ] 127.0.0.1 /tp/home/admin/ban_user/uid/Home/Admin/Home/Admin/Home/Admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: UPDATE `user` SET `is_ban`='1' WHERE `uid` = 0 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:08:45+08:00 ] 127.0.0.1 /tp/home/admin/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:09:26+08:00 ] 127.0.0.1 /tp/home/admin/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0010s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:09:34+08:00 ] 127.0.0.1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE ( is_ban=0 and is_public=1 ) ORDER BY vote_number desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 1 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined offset: 2 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined offset: 3 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 11 行.
+NOTIC: [8] Undefined offset: 4 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 12 行.
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined offset: 6 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined offset: 7 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined offset: 8 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined offset: 9 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: no5 D:\wamp\www\tp\Application\Runtime\Cache\Home\b9d8569fb4b13f0298ae898c51b036b1.php 第 105 行.
+NOTIC: [8] Undefined variable: no5 D:\wamp\www\tp\Application\Runtime\Cache\Home\b9d8569fb4b13f0298ae898c51b036b1.php 第 107 行.
+NOTIC: [8] Undefined variable: no5 D:\wamp\www\tp\Application\Runtime\Cache\Home\b9d8569fb4b13f0298ae898c51b036b1.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-18T16:09:50+08:00 ] 127.0.0.1 /tp/home/index/vote/uid/1120131203.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: uid D:\wamp\www\tp\Application\Home\Common\function.php 第 38 行.
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-18T16:10:01+08:00 ] 127.0.0.1 /tp/home/index/vote/uid/1120131203.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: uid D:\wamp\www\tp\Application\Home\Common\function.php 第 38 行.
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-18T16:10:11+08:00 ] 127.0.0.1 /tp/home/user/info/uid/1120131203.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: uid D:\wamp\www\tp\Application\Home\Common\function.php 第 38 行.
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-18T16:12:43+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `iptable` [ RunTime:0.0400s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010144041000','010144041255','wbzP58rozanUsETLxLLj') [ RunTime:0.0830s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010144042000','010144050255','wbzP58rozanUsEQ=') [ RunTime:0.0750s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010144051000','010144051255','wbzP58rozanUsETO5bLj') [ RunTime:0.1970s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010144052000','010144255255','wbzP58rozanUsEQ=') [ RunTime:0.2410s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010144021000','010144021255','wbzP58rozanUsES2/rLj') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010144022000','010144030255','wbzP58rozanUsEQ=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010144031000','010144031255','wbzP58rozanUsETI/bLj') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010144032000','010144040255','wbzP58rozanUsEQ=') [ RunTime:0.0610s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010145000000','010145010255','wbzP58rozanUsEU=') [ RunTime:0.0300s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010145011000','010145011255','wbzP58rozanUsEXSu7Lj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010139031000','010139031255','wbzP57zGy+PW0NDENbv6t78=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010139032000','010139032255','wbzP57zGy+PW0NDENLv6t78=') [ RunTime:0.1080s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010139000000','010139029255','wbzP5828yum53cKl') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010139030000','010139030255','wbzP57zGy+PW0NDEu/q3vw==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010136000000','010136255255','wbzP58Dt0afCpQ==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010137000000','010138255255','wbzP573M0afH+A==') [ RunTime:0.0520s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010133000000','010134255255','zrTWqs671sM=') [ RunTime:0.0290s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010135000000','010135255255','wbzP59DQ1f7CpQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010111000000','010131255255','zrTWqs671sM=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010132000000','010132255255','wbzP59fbus+9zNGnwqU=') [ RunTime:0.0850s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025019000','010025019255','0MI1I9Gnyfq5q9Siyq6y48TPsuA=') [ RunTime:0.0300s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025018000','010025018255','0MI1I9Gnyfq5q9SivsWy47arsuA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025015000','010025015255','0MI1I9Gnyfq5q9SisMuy48TPsuA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025014000','010025014255','0MI1I9Gnyfq5q9Sixt+y47arsuA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025017000','010025017255','0MI1I9Gnyfq5q9SivsWy48TPsuA=') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025016000','010025016255','0MI1I9Gnyfq5q9SisMuy47arsuA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025011000','010025011255','0MI1I9Gnyfq5q9Siwfmy48TPsuA=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025010000','010025010255','0MI1I9Gnyfq5q9SizuWy47arsuA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025013000','010025013255','0MI1I9Gnyfq5q9Sixt+y48TPsuA=') [ RunTime:0.0690s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025012000','010025012255','0MI1I9Gnyfq5q9Siwfmy47arsuA=') [ RunTime:0.0460s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031041000','010031049255','NSO9zNGnwqU=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031050000','010031050255','NSO9zNGnwqXO5bLj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031051000','010031059255','NSO9zNGnwqU=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031060000','010031060255','NSO9zNGnwqXB+bLj') [ RunTime:0.0910s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031061000','010031069255','NSO9zNGnwqU=') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031070000','010031070255','NSO9zNGnwqXG37Lj') [ RunTime:0.0690s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031071000','010031079255','NSO9zNGnwqU=') [ RunTime:0.0290s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031080000','010031080255','NSO9zNGnwqWwy7Lj') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031081000','010031255255','NSO9zNGnwqU=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010032000000','010100255255','zrTWqs671sM=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001200000','010001205255','0ru6xdGnyfq5q9Si') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001206000','010001211255','yq7Su7rF0afJ+rmr1KI=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001178000','010001181255','wfm6xdGnyfq5q9Si') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001182000','010001187255','xt+6xS/Krs7lusXRp8n6uavUog==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001170000','010001173255','yP26xdGnyfq5q9Si') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001174000','010001177255','zuW6xdGnyfq5q9Si') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001196000','010001197255','yP26xdGnyfq5q9Si') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001198000','010001199255','yq7B+brF0afJ+rmr1KI=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001188000','010001193255','sMu6xS/Krs7lusXRp8n6uavUog==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001194000','010001195255','yq7B+brF0afJ+rmr1KI=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001074000','010001079255','t9bF5NStwO3Rp9S60afUug==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001073000','010001073255','wabRp8+1') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001062000','010001063255','yfrO79K90ae5pLPMz7U=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001060000','010001061255','yfrO77y8yvXPtQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001056000','010001059255','t9bF5NStu6+5pNGn1Lo=') [ RunTime:0.0860s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001054000','010001055255','u7e+s9PrxNzUtM+1') [ RunTime:0.0820s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001072000','010001072255','u6/Rp8+1') [ RunTime:0.0740s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001071000','010001071255','zu/A7c+1') [ RunTime:0.1050s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001070000','010001070255','yv3Rp8+1') [ RunTime:0.0680s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001064000','010001069255','t9bF5NStyfrD/NGn1Lo=') [ RunTime:0.0300s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010144012000','010144020255','wbzP58rozanUsEQ=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010144011000','010144011255','wbzP58rozanUsETSu7Lj') [ RunTime:0.0690s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010143051000','010143051255','wbzP58rozanUsEPO5bLj') [ RunTime:0.0460s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010143042000','010143050255','wbzP58rozanUsEM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010144000000','010144010255','wbzP58rozanUsEQ=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010143052000','010143255255','wbzP58rozanUsEM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010143031000','010143031255','wbzP58rozanUsEPI/bLj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010143022000','010143030255','wbzP58rozanUsEM=') [ RunTime:0.0940s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010143041000','010143041255','wbzP58rozanUsEPLxLLj') [ RunTime:0.1000s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010143032000','010143040255','wbzP58rozanUsEM=') [ RunTime:0.0300s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001008000','010001009255','tefX07mks8zPtSjS0c2j08Mp') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001169000','010001169255','vtO53Lvh') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001162000','010001168255','zrTWqs671sM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001155000','010001155255','wO25pLTzz8M=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001154000','010001154255','uL3K9NCh0ac=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001157000','010001157255','wfTRp8n61tDQxA==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001156000','010001156255','zrTWqs671sM=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001159000','010001159255','wM+4ybK/tKY=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001158000','010001158255','uaS74aGiyMuyxb27wffW0NDE') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001161000','010001161255','06HLorOn') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001160000','010001160255','ufq8yr27wffW0NDE') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026026000','010026026255','0MI2I9Gnyfq5q9SiMTOy47GxsuA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026027000','010026027255','0MI2I9Gnyfq5q9SiMTSy4873suA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026022000','010026022255','0MI2I9Gnyfq5q9SiMTGy47GxsuA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026023000','010026023255','0MI2I9Gnyfq5q9SiMTKy4873suA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026024000','010026024255','0MI2I9Gnyfq5q9SiMTKy47GxsuA=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026025000','010026025255','0MI2I9Gnyfq5q9SiMTOy4873suA=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026018000','010026018255','0MI2I9Gnyfq5q9SiObLjsbGy4A==') [ RunTime:0.0270s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026019000','010026019255','0MI2I9Gnyfq5q9SiMTCy4873suA=') [ RunTime:0.0290s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026020000','010026020255','0MI2I9Gnyfq5q9SiMTCy47GxsuA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026021000','010026021255','0MI2I9Gnyfq5q9SiMTGy4873suA=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010000000000','010000255255','zfjC57f+zvHW0NDE') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006020000','010006023255','0dC+v8n6vczRp8Kl') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006024000','010006029255','zrTWqs671sM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006010000','010006013255','0dC+v8n6vczRp8Kl') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006014000','010006019255','zrTWqs671sM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010005008000','010005255255','zbzK6bndo6i+38zlzrTWqqOp') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006000000','010006009255','0dC+v8n61Lo=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010005000000','010005003255','zbzK6bndo6i+38zlzrTWqqOp') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010005004000','010005007255','zbzK6bnd') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006030000','010006033255','0dC+v8n6vczRp8Kl') [ RunTime:0.0360s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006034000','010006039255','zrTWqs671sM=') [ RunTime:0.0300s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010004016000','010004019255','yO28/tGn1LrKtdG1u/m12A==') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010004001000','010004015255','yP3S5cPt0afJ+rmr1KI=') [ RunTime:0.0580s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010003000000','010004000255','zrTWqs671sM=') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002071000','010002255255','zrTWqs671sM=') [ RunTime:0.1330s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010004054000','010004069255','zrTWqg==') [ RunTime:0.1250s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010004052000','010004053255','MTAjsOy5q8Kltv6y4w==') [ RunTime:0.2370s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010004050000','010004051255','MTAjsOy5q8Kl0ruy4w==') [ RunTime:0.1030s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010004020000','010004049255','zrTWqg==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010004080000','010004255255','zrTWqg==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010004070000','010004079255','1tDQxLuo1LDO3s/fzfjC5w==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001040000','010001041255','ssTBz7/G0afT67mks8zRp9S6') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001042000','010001043255','ssTBz87vwO27r9Gnz7U=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001044000','010001045255','ssTBz7/G0afPtQ==') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001046000','010001049255','t9bF5NStssTBz9Gn1Lo=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001034000','010001035255','u/rQtdbG1Oy8sNfUtq+7r8+1') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001036000','010001037255','vbvNqLmks8zPtQ==') [ RunTime:0.0570s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001038000','010001038255','u/rQtdPrs7XBvrmks8zRp9S6u/q52A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001039000','010001039255','t9bF5NSts7XBvtGn1Lo=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001050000','010001051255','u6/Rp7mks8zPtQ==') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001052000','010001053255','06bTw7uv0afPtQ==') [ RunTime:0.1320s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001152000','010001152255','ycXKs7Sm') [ RunTime:0.1160s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001153000','010001153255','0KPSvdS6') [ RunTime:0.0570s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001144000','010001145255','1LazzL3M0/27+re/') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001146000','010001146255','zfjC573MytI=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001141000','010001141255','yrXR6cnosbi0pg==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001142000','010001143255','tuDDvczlvczK0g==') [ RunTime:0.0450s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001150000','010001150255','tee9zNbQ0MShotGnzrux4Lytsr8=') [ RunTime:0.0290s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001151000','010001151255','19zO8brzx9qyv6OouvPH2sKlo6k=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001147000','010001147255','1vfCpcTatcS0pry2taXOuw==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001148000','010001149255','zrTWqs671sM=') [ RunTime:0.0950s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001010000','010001011255','vMbL49bQ0MQ=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030000000','010030009255','s/aw5sKlo6jQwtK7xM+y4KOp') [ RunTime:0.0300s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010027000000','010029255255','zrTWqg==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030011000','010030019255','s/aw5sKlo6jQwtK7xM+y4KOp') [ RunTime:0.0830s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030010000','010030010255','s/aw5sKl0ruy46Oo0MLSu8TPsuCjqQ==') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026029000','010026029255','0MI2I9Gnyfq5q9SiMTWy4873suA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026028000','010026028255','0MI2I9Gnyfq5q9SiMTSy47GxsuA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026031000','010026255255','zrTKudPD') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026030000','010026030255','0MI2I9Gnyfq5q9SiMTWy47GxsuA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030021000','010030029255','s/aw5sKlo6jQwtK7xM+y4KOp') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030020000','010030020255','s/aw5sKl0ruy46Oo0MLSu8TPsuCjqQ==') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010023000000','010024255255','zrTWqs671sM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022037000','010022255255','zrTKudPD') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022035000','010022036255','0MIyI9Gnyfq5q9SiMTiy4w==') [ RunTime:0.0360s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022033000','010022034255','0MIyI9Gnyfq5q9SiMTey4w==') [ RunTime:0.0300s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022031000','010022032255','0MIyI9Gnyfq5q9SiMTay4w==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022029000','010022030255','0MIyI9Gnyfq5q9SiMTWy4w==') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022027000','010022028255','0MIyI9Gnyfq5q9SiMTSy4w==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022025000','010022026255','0MIyI9Gnyfq5q9SiMTOy4w==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022023000','010022024255','0MIyI9Gnyfq5q9SiMTKy4w==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022021000','010022022255','0MIyI9Gnyfq5q9SiMTGy4w==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030041000','010030049255','s/aw5sKlo6jQwtK7xM+y4KOp') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025002000','010025002255','0MI1I9Gnyfq5q9Si0ruy47arsuA=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025003000','010025003255','0MI1I9Gnyfq5q9Sitv6y48TPsuA=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025000000','010025000255','zrTKudPD') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025001000','010025001255','0MI1I9Gnyfq5q9Si0ruy48TPsuA=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025006000','010025006255','0MI1I9Gnyfq5q9SiyP2y47arsuA=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025007000','010025007255','0MI1I9Gnyfq5q9Siy8Sy48TPsuA=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025004000','010025004255','0MI1I9Gnyfq5q9Sitv6y47arsuA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025005000','010025005255','0MI1I9Gnyfq5q9SiyP2y48TPsuA=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025008000','010025008255','0MI1I9Gnyfq5q9Siy8Sy47arsuA=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025009000','010025009255','0MI1I9Gnyfq5q9SizuWy48TPsuA=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001018000','010001019255','zrTG9NPD') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001016000','010001017255','tefX07mks8zPtSjS0c2j08Mp') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001022000','010001023255','wabRp7mks8zPtQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001020000','010001021255','t8nQ0Mb3uaSzzM+1') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001026000','010001026255','u/q157mks8zRp9S6u/q3vw==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001024000','010001025255','u/q157mks8zPtQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001030000','010001030255','s7XBvrmks8zPtSiztcG+yrXR6crSo6jNvMrpud3Ez7Lgtv6y47DXwqWjqSk=') [ RunTime:0.1030s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001027000','010001029255','t9bF5NStu/q159Puur3Rp9S6') [ RunTime:0.0470s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001032000','010001033255','yMjE3NPrtq/Bprmks8zPtQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001031000','010001031255','s7XBvrmks8zPtQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001120000','010001120255','zbzK6bnd') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010142041000','010142041255','wbzP58rozanUsELLxLLj') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010142042000','010142050255','wbzP58rozanUsEI=') [ RunTime:0.0280s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010142031000','010142031255','wbzP58rozanUsELI/bLj') [ RunTime:0.2300s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010142032000','010142040255','wbzP58rozanUsEI=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010143000000','010143010255','wbzP58rozanUsEM=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010143011000','010143011255','wbzP58rozanUsEPSu7Lj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010142051000','010142051255','wbzP58rozanUsELO5bLj') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010142052000','010142255255','wbzP58rozanUsEI=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010143012000','010143020255','wbzP58rozanUsEM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010143021000','010143021255','wbzP58rozanUsEO2/rLj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025021000','010025021255','0MI1I9Gnyfq5q9Siyq7Su7LjxM+y4A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025020000','010025020255','0MI1I9Gnyfq5q9Siyq6y47arsuA=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025023000','010025023255','0MI1I9Gnyfq5q9Siyq62/rLjxM+y4A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025022000','010025022255','0MI1I9Gnyfq5q9Siyq7Su7Ljtquy4A==') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025025000','010025025255','0MI1I9Gnyfq5q9Siyq7I/bLjxM+y4A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025024000','010025024255','0MI1I9Gnyfq5q9Siyq62/rLjtquy4A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025027000','010025027255','0MI1I9Gnyfq5q9Siyq7LxLLjxM+y4A==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025026000','010025026255','0MI1I9Gnyfq5q9Siyq7I/bLjtquy4A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025029000','010025029255','0MI1I9Gnyfq5q9Siyq7O5bLjxM+y4A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025028000','010025028255','0MI1I9Gnyfq5q9Siyq7LxLLjtquy4A==') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001138000','010001138255','0afJ+rmk1/e0pg==') [ RunTime:0.2000s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001137000','010001137255','vMzQ+L3M0/3Rp9S6oaLUtrPMvczT/dGn1Lo=') [ RunTime:0.0910s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001136000','010001136255','1dDJ+r7N0rW5pNf3tKY=') [ RunTime:0.1830s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001135000','010001135255','0dC+v8n61Lo=') [ RunTime:0.1330s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001134000','010001134255','ssbO8bSm') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001133000','010001133255','v8a8vLSmoaLRp7GoseC8rbK/') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001132000','010001132255','vczO8bSm') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001131000','010001131255','0Pu0q7K/') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001140000','010001140255','yMvKwrSm') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001139000','010001139255','uvPH2tfc1qehorrzx9qw7KGiu/m9qLSm') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001000000','010001001255','vMbL47v6v8bRp7mks8zPtQ==') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001012000','010001013255','vMbL49bQ0MQ=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001129000','010001129255','zrTWqs671sM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002052000','010002053255','0MIxI9Gnyfq5q9SiMX4ysuPEz7Lg') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002054000','010002055255','0MIxI9Gnyfq5q9SiM340suO2q7Lg') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002056000','010002057255','0MIxI9Gnyfq5q9SiM340suPEz7Lg') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002058000','010002059255','0MIxI9Gnyfq5q9SiNX43suO2q7Lg') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002060000','010002061255','0MIxI9Gnyfq5q9SiNX43suPEz7Lg') [ RunTime:0.0940s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002062000','010002063255','0MIxI9Gnyfq5q9SiOH4xMLLjtquy4A==') [ RunTime:0.0290s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002064000','010002065255','0MIxI9Gnyfq5q9SiOH4xMLLjxM+y4A==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002066000','010002067255','0MIxI9Gnyfq5q9SiMTF+MTOy47arsuA=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002068000','010002069255','0MIxI9Gnyfq5q9SiMTF+MTOy48TPsuA=') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002070000','010002070255','zfjQrbv6t78=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010142022000','010142030255','wbzP58rozanUsEI=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010142021000','010142021255','wbzP58rozanUsEK2/rLj') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010141051000','010141051255','wbzP58rozanUsEHO5bLj') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010141042000','010141050255','wbzP58rozanUsEE=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010141041000','010141041255','wbzP58rozanUsEHLxLLj') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010141032000','010141040255','wbzP58rozanUsEE=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010142012000','010142020255','wbzP58rozanUsEI=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010142011000','010142011255','wbzP58rozanUsELSu7Lj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010142000000','010142010255','wbzP58rozanUsEI=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010141052000','010141255255','wbzP58rozanUsEE=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001002000','010001003255','19S2r7/Y1sbPtSjS0c2j08Mp') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010149000000','010149255255','wbzP576y1LBE') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010150000000','010255255255','zrTWqs671sM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010147000000','010147255255','wbzP576y1LBC') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010148000000','010148255255','wbzP576y1LBD') [ RunTime:0.0580s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001116000','010001117255','u/rQtdPrs7XBvrmks8zRp9S6u/q3vw==') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001118000','010001119255','u/rQtdPrs7XBvrmks8zRp9S6uaSzpw==') [ RunTime:0.0860s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030070000','010030070255','s/aw5sKly8Sy46Oo0MLSu8TPsuCjqQ==') [ RunTime:0.0290s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030071000','010030079255','s/aw5sKlo6jQwtK7xM+y4KOp') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001122000','010001125255','zrTWqs671sM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001126000','010001126255','vczO8bSm') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001127000','010001127255','zrTWqs671sM=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001128000','010001128255','tbWwuLnd') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030040000','010030040255','s/aw5sKltv6y46Oo0MLSu8TPsuCjqQ==') [ RunTime:0.0280s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001130000','010001130255','0KOw7LWzsOyhorzNzq+84LLsvLDQo8Hstbw=') [ RunTime:0.0290s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030030000','010030030255','s/aw5sKltv6y46Oo0MLSu8TPsuCjqQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030031000','010030039255','s/aw5sKlo6jQwtK7xM+y4KOp') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030060000','010030060255','s/aw5sKlyP2y46Oo0MLSu8TPsuCjqQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030061000','010030069255','s/aw5sKlo6jQwtK7xM+y4KOp') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030050000','010030050255','s/aw5sKlyP2y46Oo0MLSu8TPsuCjqQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030051000','010030059255','s/aw5sKlo6jQwtK7xM+y4KOp') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022017000','010022018255','0MIyI9Gnyfq5q9SiObLj') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022019000','010022020255','0MIyI9Gnyfq5q9SiMTCy4w==') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022009000','010022010255','0MIyI9Gnyfq5q9SiNbLj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022011000','010022012255','0MIyI9Gnyfq5q9SiNrLj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022013000','010022014255','0MIyI9Gnyfq5q9SiN7Lj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022015000','010022016255','0MIyI9Gnyfq5q9SiOLLj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022001000','010022002255','0MIyI9Gnyfq5q9SiMbLj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022003000','010022004255','0MIyI9Gnyfq5q9SiMrLj') [ RunTime:0.0780s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022005000','010022006255','0MIyI9Gnyfq5q9SiM7Lj') [ RunTime:0.0300s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022007000','010022008255','0MIyI9Gnyfq5q9SiNLLj') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001014000','010001015255','tefX07mks8zPtQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010145051000','010145051255','wbzP58rozanUsEXO5bLj') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010145042000','010145050255','wbzP58rozanUsEU=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010145041000','010145041255','wbzP58rozanUsEXLxLLj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010145032000','010145040255','wbzP58rozanUsEU=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010145031000','010145031255','wbzP58rozanUsEXI/bLj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010145022000','010145030255','wbzP58rozanUsEU=') [ RunTime:0.0580s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010145021000','010145021255','wbzP58rozanUsEW2/rLj') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010145012000','010145020255','wbzP58rozanUsEU=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010146000000','010146255255','wbzP576y1LBB') [ RunTime:0.0280s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010145052000','010145255255','wbzP58rozanUsEU=') [ RunTime:0.0300s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026004000','010026004255','0MI2I9Gnyfq5q9SiMrLjsbGy4A==') [ RunTime:0.0580s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026005000','010026005255','0MI2I9Gnyfq5q9SiM7Ljzvey4A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026002000','010026002255','0MI2I9Gnyfq5q9SiMbLjsbGy4A==') [ RunTime:0.0570s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026003000','010026003255','0MI2I9Gnyfq5q9SiMrLjzvey4A==') [ RunTime:0.1910s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026000000','010026000255','zrTKudPD') [ RunTime:0.1410s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026001000','010026001255','0MI2I9Gnyfq5q9SiMbLjzvey4A==') [ RunTime:0.1830s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025030000','010025030255','0MI1I9Gnyfq5q9Siyq7O5bLjtquy4A==') [ RunTime:0.1250s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010025031000','010025255255','zrTKudPD') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026006000','010026006255','0MI2I9Gnyfq5q9SiM7LjsbGy4A==') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026007000','010026007255','0MI2I9Gnyfq5q9SiNLLjzvey4A==') [ RunTime:0.0810s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010110000000','010110255255','x/PKx8Kl') [ RunTime:0.0430s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010109000000','010109255255','OCPW2LXjyrXR6crSwqU=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001004000','010001005255','tefX07mks8zPtSjS0c2j08Mp') [ RunTime:0.0580s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010102000000','010102255255','MiOw7LmrwqU=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010101000000','010101255255','MSO9zNGnwqU=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010104000000','010104255255','NCO9zNGnwqU=') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010103000000','010103255255','MyO9zNGnwqU=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010106000000','010106255255','NiO9zNGnwqU=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010105000000','010105255255','zrTWqg==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010108000000','010108255255','1tDQxL3M0afCpQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010107000000','010107255255','NyO9zNGnwqU=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031010000','010031010255','NSO9zNGnwqXSu7Lj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031000000','010031009255','NSO9zNGnwqU=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030081000','010030255255','s/aw5sKlo6jQwtK7xM+y4KOp') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010030080000','010030080255','s/aw5sKly8Sy46Oo0MLSu8TPsuCjqQ==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031030000','010031030255','NSO9zNGnwqXI/bLj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031021000','010031029255','NSO9zNGnwqU=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031020000','010031020255','NSO9zNGnwqW2/rLj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031011000','010031019255','NSO9zNGnwqU=') [ RunTime:0.0370s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031040000','010031040255','NSO9zNGnwqXLxLLj') [ RunTime:0.0280s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010031031000','010031039255','NSO9zNGnwqU=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001115000','010001115255','t9bF5NStyO28/tGn1Lo=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001114000','010001114255','yO28/tGn1Lq5+MKvt7+7+re/') [ RunTime:0.1330s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001103000','010001109255','t9bF5NStyei8xtLVyvXRp9S6') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001102000','010001102255','u7e+s9LVyvXJ6LzGz7U=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001112000','010001113255','t9bF5NStyO28/tGn1Lo=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001110000','010001111255','yO28/rmks8zPtQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001096000','010001099255','t9bF5NStyMvOxNGn1Lo=') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001094000','010001095255','zeLT79Gn1Lo=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001101000','010001101255','ytO+9bSrtO/J6LzGz7U=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001100000','010001100255','uaTStcnovMbPtQ==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001121000','010001121255','zbzK6bnd0afJ+rv6t78=') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002002000','010002002255','0MXPor3M0afCpb3M0afJ6LG4') [ RunTime:0.0580s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002000000','010002001255','zrTWqs671sM=') [ RunTime:0.1310s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002010000','010002039255','0MXPor3M0afCpQ==') [ RunTime:0.1320s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002003000','010002009255','zrTWqs671sM=') [ RunTime:0.0600s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001218000','010001223255','yq7I/brF0afJ+rmr1KI=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001212000','010001217255','yq62/rrF0afJ+rmr1KI=') [ RunTime:0.1440s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001230000','010001255255','zrTWqs671sM=') [ RunTime:0.0290s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001224000','010001229255','yq7LxLrF0afJ+rmr1KI=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002050000','010002051255','0MIxI9Gnyfq5q9SiMX4ysuO2q7Lg') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010002040000','010002049255','zrTWqs671sM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010141022000','010141030255','wbzP58rozanUsEE=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010141031000','010141031255','wbzP58rozanUsEHI/bLj') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010139033000','010139033255','wbzP57zGy+PW0NDETGludXi7+re/') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010139034000','010139039255','wbzP57zGy+PW0NDEu/q3vw==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010139040000','010139255255','wbzP5828yum53cKl') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010140000000','010140255255','wbzP57Kp0cXUsA==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010141000000','010141010255','wbzP58rozanUsEE=') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010141011000','010141011255','wbzP58rozanUsEHSu7Lj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010141012000','010141020255','wbzP58rozanUsEE=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010141021000','010141021255','wbzP58rozanUsEG2/rLj') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026017000','010026017255','0MI2I9Gnyfq5q9SiObLjzvey4A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026016000','010026016255','0MI2I9Gnyfq5q9SiOLLjsbGy4A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026015000','010026015255','0MI2I9Gnyfq5q9SiOLLjzvey4A==') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026014000','010026014255','0MI2I9Gnyfq5q9SiN7LjsbGy4A==') [ RunTime:0.1200s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026013000','010026013255','0MI2I9Gnyfq5q9SiN7Ljzvey4A==') [ RunTime:0.0450s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026012000','010026012255','0MI2I9Gnyfq5q9SiNrLjsbGy4A==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026011000','010026011255','0MI2I9Gnyfq5q9SiNrLjzvey4A==') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026010000','010026010255','0MI2I9Gnyfq5q9SiNbLjsbGy4A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026009000','010026009255','0MI2I9Gnyfq5q9SiNbLjzvey4A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010026008000','010026008255','0MI2I9Gnyfq5q9SiNLLjsbGy4A==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006042000','010006049255','zrTWqs671sM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006040000','010006041255','0dC+v8n6vczRp8Kl') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006054000','010006059255','zrTWqs671sM=') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006050000','010006053255','0dC+v8n6vczRp8Kl') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006062000','010006255255','zrTWqs671sM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010006060000','010006061255','0dC+v8n6vczRp8Kl') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010010000000','010010255255','zbzK6bndsaPB9LbOKL+ozvHW0NDEo78p') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010007000000','010009255255','zrTWqs671sM=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010022000000','010022000255','zrTKudPD') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010011000000','010021255255','zrTKudPD') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001092000','010001092255','t6jCyc+1') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001093000','010001093255','uN+9zNHQvr/L+Q==') [ RunTime:0.0500s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001090000','010001090255','zeLT78+1') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001091000','010001091255','yMvOxNGn1LovzeLT79Gn1Lo=') [ RunTime:0.0670s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001085000','010001085255','udzA7dPrvq28w9Gnu/q3vw==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001086000','010001089255','t9bF5NStudzA7dGn1Lo=') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001083000','010001083255','uau5srncwO3PtQ==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001084000','010001084255','06bTw76tvMPPtQ==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001080000','010001081255','udzA7b/G0afT67mks8zPtQ==') [ RunTime:0.0660s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001082000','010001082255','uaTJzLncwO3PtQ==') [ RunTime:0.0490s ]
+SQL: INSERT INTO `iptable` (`up_ip`,`down_ip`,`position`) VALUES ('010001006000','010001007255','ueK157mks8zPtSjS0c2j08Mp') [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:21:06+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `iptable` [ RunTime:0.0020s ]
+ERR: 1054:Unknown column '$ip' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `iptable` WHERE ( up_ip<$ip and down_ip>$ip ) LIMIT 1  
+ERR: 1054:Unknown column '$ip' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `iptable` WHERE ( up_ip<$ip and down_ip>$ip ) LIMIT 1  
+
+[ 2016-03-18T16:22:20+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:22:47+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `iptable` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `iptable` WHERE ( up_ip<127001 and down_ip>127001 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:22:47+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iptable` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `iptable` WHERE ( up_ip<127001 and down_ip>127001 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:22:54+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iptable` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `iptable` WHERE ( up_ip<127001 and down_ip>127001 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:23:17+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `iptable` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `iptable` WHERE ( up_ip<127001 and down_ip>127001 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-18T16:23:55+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `iptable` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `iptable` WHERE ( up_ip<127001 and down_ip>127001 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:26:17+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iptable` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `iptable` WHERE ( up_ip<=127001 and down_ip>=127001 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T16:27:47+08:00 ] 10.62.74.227 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `iptable` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `iptable` WHERE ( up_ip<=106274227 and down_ip>=106274227 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:28:06+08:00 ] 10.62.74.227 /tp/home/user/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:28:06+08:00 ] 10.62.74.227 /tp/home/user/login.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:28:07+08:00 ] 10.62.74.227 /tp/home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:28:23+08:00 ] 10.62.74.227 /tp/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT `password` FROM `user` WHERE `uid` = 1120131203 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `password` FROM `user` WHERE `uid` = 1120131203 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:28:26+08:00 ] 10.62.74.227 /tp/home/user/login.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:28:27+08:00 ] 10.62.74.227 /tp/home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:28:43+08:00 ] 10.62.74.227 /tp/home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:29:01+08:00 ] 10.62.74.227 /tp/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT `password` FROM `user` WHERE `uid` = 1120131205 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `password` FROM `user` WHERE `uid` = 1120131205 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\tp\Application\Home\Controller\UserController.class.php 第 42 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:29:02+08:00 ] 10.62.74.227 /tp/home/user/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\wamp\www\tp\Application\Home\Common\function.php 第 38 行.
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-18T16:29:02+08:00 ] 10.62.74.227 /tp/home/user/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: uid D:\wamp\www\tp\Application\Home\Common\function.php 第 38 行.
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-18T16:29:13+08:00 ] 10.62.74.227 /tp/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-18T16:29:14+08:00 ] 10.62.74.227 /tp/home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

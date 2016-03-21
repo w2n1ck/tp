@@ -1,0 +1,115 @@
+1.先请求页面：login.bit.edu.cn/cas/login?service=http://online.bit.edu.cn/leaving/shiro-cas
+GET /cas/login?service=http://online.bit.edu.cn/leaving/shiro-cas HTTP/1.1
+Host: login.bit.edu.cn
+Proxy-Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie:_gscu_1597174311=580541349s633o71; _gscbrs_1597174311=1
+
+2.返回的数据中有一个<input type="hidden" name="lt" value="LT-2858711-c1cw0QOljHrDL0wzhZcIOEu1a6IX9m-1458141732326" />
+这样的数据，需要提取它的值：
+HTTP/1.1 200 OK
+Date: Wed, 16 Mar 2016 15:19:07 GMT
+Server: Apache/2.2.26 (Unix)
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache
+Cache-Control: no-store
+Content-Length: 6237
+Content-Type: text/html; charset=UTF-8
+Content-Language: en-US
+Set-Cookie: JSESSIONID=00004DMn3ASqDHGaVaYLnWFb_O8:18bictvom; Path=/cas
+
+
+3.发送你的账号密码和刚才获取的lt的值：
+POST /cas/login?service=http://online.bit.edu.cn/leaving/shiro-cas HTTP/1.1
+Host: login.bit.edu.cn
+Proxy-Connection: keep-alive
+Content-Length: 135
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Origin: http://login.bit.edu.cn
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://login.bit.edu.cn/cas/login?service=http://online.bit.edu.cn/leaving/shiro-cas
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=00004DMn3ASqDHGaVaYLnWFb_O8:18bictvom; _gscu_1597174311=580541349s633o71; _gscbrs_1597174311=1
+
+username=1120131205&password=200214&lt=LT-2858695-lrDayfHsgM6dY0RI7UXaiIysbNl0Kk-1458141547723&execution=e1s1&_eventId=submit&rmShown=1
+Connection: close
+
+
+
+4.从location中获取跳转的链接，（这里是http://online.bit.edu.cn/leaving/shiro-cas?ticket=ST-356688-JELk9d4VSwweEx4iuRjg-AxXQ-cas-1458141695503）：
+HTTP/1.1 302 Found
+Date: Wed, 16 Mar 2016 15:21:35 GMT
+Server: Apache/2.2.26 (Unix)
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: no-cache
+Cache-Control: no-store
+Location: http://online.bit.edu.cn/leaving/shiro-cas?ticket=ST-356688-JELk9d4VSwweEx4iuRjg-AxXQ-cas-1458141695503
+Content-Length: 0
+Content-Type: text/plain; charset=UTF-8
+Content-Language: en-US
+Set-Cookie: CASPRIVACY=""; Expires=Thu, 01 Dec 1994 16:00:00 GMT; Path=/
+Set-Cookie: CASTGC=TGT-224522-QI2Q2WzkGLrmDYfjipbyawkxmnW6eBwGIr9XrB3cNTA1NzpXk4-tqEi-cas-1458141695493; Path=/; HttpOnly
+Connection: close
+
+5.转到跳转链接：
+GET /leaving/shiro-cas?ticket=ST-356708-GQfF9wkoc54CNLDp03y5-AxXQ-cas-1458142158303 HTTP/1.1
+Host: online.bit.edu.cn
+Proxy-Connection: keep-alive
+Cache-Control: max-age=0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=135ztkxgyso3q108ggk4rgbb4c; _gscu_1597174311=580541349s633o71; _gscbrs_1597174311=1
+
+6.获取该网站的合法cookie：
+GET /ccs/a.jsp?ticket=ST-356714-upDu1OeB4ZDWga3CEx4J-AxXQ-cas-1458142252538 HTTP/1.1
+Host: online.bit.edu.cn
+Proxy-Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+Referer: http://online.bit.edu.cn/leaving/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: _gscu_1597174311=580541349s633o71; _gscbrs_1597174311=1
+
+HTTP/1.1 302 Moved Temporarily
+Server: Apache-Coyote/1.1
+Set-Cookie: JSESSIONID=48C9114AD32784B1374AD2E549A7CC09; Path=/ccs
+Location: http://online.bit.edu.cn/ccs/a.jsp;jsessionid=48C9114AD32784B1374AD2E549A7CC09
+Content-Length: 0
+Date: Wed, 16 Mar 2016 15:30:53 GMT
+Connection: close
+
+7.获取用户信息，从返回的url中获取学号，学院，姓名，图片url
+GET /leaving/dashboard/student HTTP/1.1
+Host: online.bit.edu.cn
+Proxy-Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36
+Referer: http://online.bit.edu.cn/leaving/
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=1ezwp7pflpe6f8ovl2nnwg3sb; _gscu_1597174311=580541349s633o71; _gscbrs_1597174311=1
+
+
+
+
+
+
+
+

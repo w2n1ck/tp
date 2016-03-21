@@ -1,0 +1,84 @@
+bit_nvshen
+
+user±í£º
+uid   (Ñ§ºÅ£©
+username£¨ÐÕÃû)
+password 
+img_url £¨Í¼Æ¬url,jsonÊý¾Ý£©
+vote_number
+phone
+last_vote_time
+last_donate_vote_time
+class
+major
+qq
+wetchat
+other_info
+last_biaobaiqiang_time 
+is_ban
+is_public
+is_female
+
+
+public±í£º
+register_number
+donate_number
+public_message
+vote_number
+
+admin±í£º
+donate_username
+admin_login_ip
+
+message±í£º
+
+
+
+create database bit_nvshen;
+use bit_nvshen;
+create table user(uid varchar(10) not null,
+username varchar(30) not null,
+password varchar(32) not null,
+img_url  varchar(100) default 'nsc' not null,
+vote_number int(8) default '0' not null,
+phone int(10),
+last_vote_time varchar(20) default '0' not null,
+last_donate_vote_time varchar(20) default '0' not null,
+last_biaobaiqiang_time varchar(20) default '0' not null,
+major_class varchar(40),
+qq varchar(12),
+wetchat varchar(40), 
+other_info varchar(200) ,
+is_ban bool default 0 not null,
+is_public bool default 1 not null,
+is_female bool default 0 not null)
+
+create table public(
+register_number  varchar(10) default '0' not null,
+vote_number  varchar(10) default '0' not null,
+donate_number varchar(10) default '0' not null,
+public_message varchar(1000) default '0' not null,
+)
+
+create table message(
+mid varchar(10) not null,
+form_uid varchar(10) not null,
+to_uid varchar(10) not null,
+messgae varchar(200) not null,
+is_biaobaiqiang bool default 0 not null
+)
+
+create table admin(
+donate_username varchar(30) not null,
+admin_login_ip varchar(30) not null
+)
+
+
+
+1.admin/index
+2.cas_login
+3.donate
+4.photoshow
+
+
+

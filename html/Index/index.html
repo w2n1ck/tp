@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BIT素颜女神</title>
+
+		<!-- Bootstrap CSS -->
+		<link href="/tp/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<include file="Public:navbar"/>
+		
+		<div class="container-fluid">
+			<table class="table table-hover">
+				<thead>
+					<tr>
+						<th>姓名</th>
+						<th>排名</th>
+						<th>照片</th>
+						<th>总票数</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr onclick="jump('{:U('Home/User/Info/uid/'.$no_1['uid'])}')">
+						<td>{$no_1.username}</td>
+						<td>1</td>
+						<td><img src="{$no_1.img_url}"  width="50" height="50"></td>
+						<td>{$no_1.vote_number}</td>
+						<td><button class="btn btn-primary btn-block" onclick="document.location.href='{:U('Home/Index/vote/uid/'.$no_1['uid'])}';">VOTE</button></td>
+					</tr>
+
+					<tr onclick="jump('{:U('Home/User/Info/uid/'.$no_2['uid'])}')">
+						<td>{$no_2.username}</td>
+						<td>2</td>
+						<td><img src="{$no_2.img_url}"  width="50" height="50"></td>
+						<td>{$no_2.vote_number}</td>
+						<td><button class="btn btn-primary btn-block" onclick="document.location.href='{:U('Home/Index/vote/uid/'.$no_2['uid'])}';">VOTE</button></td>
+						</tr>
+
+					<tr onclick="jump('{:U('Home/User/Info/uid/'.$no_3['uid'])}')" onclick="jump('{:U('Home/User/Info/uid/'.$no_1['uid'])}')">
+						<td>{$no_3.username}</td>
+						<td>3</td>
+						<td><img src="{$no_3.img_url}"  width="50" height="50"></td>
+						<td>{$no_3.vote_number}</td>
+						<td><button class="btn btn-primary btn-block" onclick="document.location.href='{:U('Home/Index/vote/uid/'.$no_3['uid'])}';">VOTE</button></td>
+					</tr>
+
+					<tr onclick="jump('{:U('Home/User/Info/uid/'.$no_4['uid'])}')">
+						<td>{$no_4.username}</td>
+						<td>4</td>
+						<td><img src="{$no_4.img_url}"  width="50" height="50"></td>
+						<td>{$no_4.vote_number}</td>
+						<td><button class="btn btn-primary btn-block" onclick="document.location.href='{:U('Home/Index/vote/uid/'.$no_4['uid'])}';">VOTE</button></td>
+					</tr>
+
+					<tr onclick="jump('{:U('Home/User/Info/uid/'.$no_5['uid'])}')">
+						<td>{$no5.username}</td>
+						<td>5</td>
+						<td><img src="{$no5.img_url}"  width="50" height="50"></td>
+						<td>{$no5.vote_number}</td>
+						<td><button class="btn btn-primary btn-block" onclick="document.location.href='{:U('Home/Index/vote/uid/'.$no_5['uid'])}';">VOTE</button></td>
+					</tr>
+
+					<tr onclick="jump('{:U('Home/User/Info/uid/'.$no_6['uid'])}')">
+						<td>{$no_6.username}</td>
+						<td>6</td>
+						<td><img src="{$no_6.img_url}"  width="50" height="50"></td>
+						<td>{$no_6.vote_number}</td>
+						<td><button class="btn btn-primary btn-block" onclick="document.location.href='{:U('Home/Index/vote/uid/'.$no_6['uid'])}';">VOTE</button></td>
+					</tr>
+
+					<tr onclick="jump('{:U('Home/User/Info/uid/'.$no_7['uid'])}')">
+						<td>{$no_7.username}</td>
+						<td>7</td>
+						<td><img src="{$no_7.img_url}"  width="50" height="50"></td>
+						<td>{$no_7.vote_number}</td>
+						<td><button class="btn btn-primary btn-block" onclick="document.location.href='{:U('Home/Index/vote/uid/'.$no_7['uid'])}';">VOTE</button></td>
+					</tr>
+
+					<tr onclick="jump('{:U('Home/User/Info/uid/'.$no_8['uid'])}')">
+						<td>{$no_8.username}</td>
+						<td>8</td>
+						<td><img src="{$no_8.img_url}"  width="50" height="50"></td>
+						<td>{$no_8.vote_number}</td>
+						<td><button class="btn btn-primary btn-block" onclick="document.location.href='{:U('Home/Index/vote/uid/'.$no_8['uid'])}';">VOTE</button></td>
+					</tr>
+
+					<tr onclick="jump('{:U('Home/User/Info/uid/'.$no_9['uid'])}')">
+						<td>{$no_9.username}</td>
+						<td>9</td>
+						<td><img src="{$no_9.img_url}"  width="50" height="50"></td>
+						<td>{$no_9.vote_number}</td>
+						<td><button class="btn btn-primary btn-block" onclick="document.location.href='{:U('Home/Index/vote/uid/'.$no_9['uid'])}';">VOTE</button></td>
+					</tr>
+
+					<tr onclick="jump('{:U('Home/User/Info/uid/'.$no_10['uid'])}')">
+						<td>{$no_10.username}</td>
+						<td>10</td>
+						<td><img src="{$no_10.img_url}"  width="50" height="50"></td>
+						<td>{$no_10.vote_number}</td>
+						<td><button class="btn btn-primary btn-block" onclick="document.location.href='{:U('Home/Index/vote/uid/'.$no_10['uid'])}';">VOTE</button></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<!-- jQuery -->
+		<script src="//code.jquery.com/jquery.js"></script>
+		<script>
+		function jump(url){
+			//通过设置延迟来解决onclick的冲突
+			window.setTimeout("document.location.href='"+url+"'",400);
+		}
+		</script>
+		<!-- Bootstrap JavaScript -->
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	</body>
+</html>
