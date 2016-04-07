@@ -26,24 +26,25 @@ public_message varchar(1000) default '0' not null
 );
 
 create table message(
-mid primary key varchar(10) not null,
+mid primary key varchar(10) AUTO_INCREMENT not null,
 from_uid varchar(10) not null,
 to_uid varchar(10) not null,
 message varchar(200) not null,
 send_time varchar(20) default '0' not null,
+is_read bool default 0 not null,
 is_biaobaiqiang bool default 0 not null
 );
 
-create table donate(){
+create table donate(
 uid primary key varchar(10) not null,
 donate_amount varchar(20) not null
-}
+);
 
-create table iptable(){
+create table iptable(
 up_ip varchar(20) not null,
 down_ip varchar(20) not null,
 position varchar(100) not null
-}
+);
 
 create table admin(
 login_time varchar(30) ,
@@ -52,4 +53,4 @@ admin_login_ip varchar(30)
 
 
 /*初始化sql*/
-INSERT INTO `public`(`register_number`, `total_vote_number`, `donate_number`, `public_message`) VALUES ('3','100','0','hello world!')
+INSERT INTO `public`(`register_number`, `total_vote_number`, `donate_number`, `public_message`) VALUES ('5','100','0','hello world!')

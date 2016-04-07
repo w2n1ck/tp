@@ -1,0 +1,30 @@
+[ 2016-04-05T23:34:58+08:00 ] 127.0.0.1 /tp/upload/tp/Home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Upload
+
+[ 2016-04-05T23:35:32+08:00 ] 127.0.0.1 /tp/upload/tp/Home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Upload
+
+[ 2016-04-05T23:35:45+08:00 ] 127.0.0.1 /tp/upload/tp/Home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Upload
+
+[ 2016-04-05T23:35:57+08:00 ] 127.0.0.1 /tp/upload/tp/Home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Upload
+
+[ 2016-04-05T23:36:24+08:00 ] 127.0.0.1 /tp/upload/tp/Home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Upload
+

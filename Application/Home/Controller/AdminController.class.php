@@ -6,7 +6,7 @@ class AdminController extends Controller {
         check_admin_role();
         $this->assign(get_global_info());
         $this->display();
-        ;
+        
 
 
 
@@ -27,7 +27,7 @@ class AdminController extends Controller {
         $this->success('禁用成功',U('Home/Admin/index'));
     }
 
-    public function reban_user($uid){
+    public function recover_user($uid){
         check_admin_role();
         $uid=I('uid',0,'intval');
         reban_user($uid);
@@ -45,6 +45,15 @@ class AdminController extends Controller {
         }
     }
 
+    public function love_wall_admin(){
+        if(isset($_REQUEST['mid'])&&isset($_REQUEST['action'])){
+
+
+        }
+
+    }
+
+
     public function login(){
         $username=C('admin_user');
         $password=C('admin_pass');
@@ -53,12 +62,14 @@ class AdminController extends Controller {
             if($username===$_POST['username']&&$password===$_POST['password']){
                 session_start();
                 $_SESSION['admin']=1;
+                $_SESSION['uid']=1;
                 $_SESSION['expire']=7200;
                  $this->success('login success!', U('index'),1);
                  write_admin_ip_log(I('SERVER.REMOTE_ADDR','0'));
-            }
-           $this->error('username or password error!',U('login'));
-           session_destroy();
+            }else{
+        $this->error('username or password error!',U('login'));
+        session_destroy();
+       }
         }else{
             $this->display();
         }

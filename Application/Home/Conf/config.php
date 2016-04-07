@@ -14,4 +14,5 @@ return array(
     'DB_PORT'               =>  '3306',        // 端口
     'DB_FIELDS_CACHE'=>false,// 关闭字段缓存
     'URL_MODEL' =>2,
+    'DB_CHARSET' => 'utf8',
 );

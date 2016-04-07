@@ -1,0 +1,901 @@
+[ 2016-03-24T09:56:22+08:00 ] 127.0.0.1 /tp/home/admin/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant send_time - assumed 'send_time' D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Use of undefined constant send_time - assumed 'send_time' D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Use of undefined constant send_time - assumed 'send_time' D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Use of undefined constant send_time - assumed 'send_time' D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Use of undefined constant send_time - assumed 'send_time' D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T09:56:28+08:00 ] 127.0.0.1 /tp/home/admin/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant send_time - assumed 'send_time' D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Use of undefined constant send_time - assumed 'send_time' D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Use of undefined constant send_time - assumed 'send_time' D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Use of undefined constant send_time - assumed 'send_time' D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Use of undefined constant send_time - assumed 'send_time' D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+NOTIC: [8] Array to string conversion D:\wamp\www\tp\Application\Runtime\Cache\Home\ed51f6cc120e4e83f6a9dadfec66ae64.php 第 326 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T09:57:21+08:00 ] 127.0.0.1 /tp/home/admin/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T10:03:13+08:00 ] 127.0.0.1 /tp/home/admin/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: admin D:\wamp\www\tp\Application\Home\Common\function.php 第 35 行.
+
+[ 2016-03-24T10:03:13+08:00 ] 127.0.0.1 /tp/home/admin/login.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T10:03:18+08:00 ] 127.0.0.1 /tp/home/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\tp\Application\Home\Controller\AdminController.class.php 第 54 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0020s ]
+SQL: INSERT INTO `admin` (`admin_login_ip`) VALUES ('127.0.0.1') [ RunTime:0.0870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-24T10:03:19+08:00 ] 127.0.0.1 /tp/home/admin/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:03:36+08:00 ] 127.0.0.1 /tp/home/admin/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0010s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T10:04:11+08:00 ] 127.0.0.1 /tp/home/admin/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0010s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:11:24+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:11:24+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:11:50+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:12:50+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-24T10:13:18+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T10:14:04+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:14:25+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 201 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 151 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 175 行.
+
+[ 2016-03-24T10:21:41+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 199 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+
+[ 2016-03-24T10:22:40+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 199 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 213 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 221 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 226 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:23:39+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 199 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 213 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 221 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 226 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:25:58+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 199 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 213 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 221 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 226 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:28:56+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 199 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 213 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 221 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 226 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [8] Undefined variable: uid D:\wamp\www\tp\Application\Home\Common\function.php 第 242 行.
+NOTIC: [8] Undefined variable: major_class D:\wamp\www\tp\Application\Home\Common\function.php 第 242 行.
+NOTIC: [8] Undefined variable: img_url D:\wamp\www\tp\Application\Home\Common\function.php 第 242 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-03-24T10:30:44+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 199 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 213 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 221 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 226 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:32:02+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 199 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 213 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 221 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 226 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:33:00+08:00 ] 127.0.0.1 /tp/home/user/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 199 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 213 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 221 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 226 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:34:47+08:00 ] 127.0.0.1 /tp/home/user/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-24T10:34:47+08:00 ] 127.0.0.1 /tp/home/user/login.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T10:34:47+08:00 ] 127.0.0.1 /tp/home/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:35:19+08:00 ] 127.0.0.1 /tp/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `password` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 199 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 213 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 221 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 226 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+SQL: SELECT `password` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.016001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.016001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T10:35:22+08:00 ] 127.0.0.1 /tp/home/user/login.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:35:33+08:00 ] 127.0.0.1 /tp/home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE ( is_ban=0 and is_public=1 ) ORDER BY vote_number desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 5 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined offset: 6 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined offset: 7 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined offset: 8 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined offset: 9 D:\wamp\www\tp\Application\Home\Controller\IndexController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: no5 D:\wamp\www\tp\Application\Runtime\Cache\Home\b9d8569fb4b13f0298ae898c51b036b1.php 第 105 行.
+NOTIC: [8] Undefined variable: no5 D:\wamp\www\tp\Application\Runtime\Cache\Home\b9d8569fb4b13f0298ae898c51b036b1.php 第 107 行.
+NOTIC: [8] Undefined variable: no5 D:\wamp\www\tp\Application\Runtime\Cache\Home\b9d8569fb4b13f0298ae898c51b036b1.php 第 108 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T10:38:15+08:00 ] 127.0.0.1 /tp/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `password` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 199 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 213 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 221 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 226 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+SQL: INSERT INTO `user` (`uid`,`username`,`major_class`,`img_url`,`password`) VALUES ('1120131219','段荣成','信息与电子学院','http://api.info.bit.edu.cn/pub/registeredPerson/v1/showPhoto?uuid=bed4c4cb-1509-4968-af06-1b462147bda1','fb26b0a5d7647739b08783cfb3b562c6') [ RunTime:0.0990s ]
+SQL: SELECT `password` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\tp\Application\Home\Controller\UserController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T10:38:16+08:00 ] 127.0.0.1 /tp/home/user/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: uid D:\wamp\www\tp\Application\Home\Common\function.php 第 46 行.
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-24T10:39:51+08:00 ] 127.0.0.1 /tp/home/user/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: uid D:\wamp\www\tp\Application\Home\Common\function.php 第 46 行.
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-24T10:39:57+08:00 ] 127.0.0.1 /tp/home/user/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: uid D:\wamp\www\tp\Application\Home\Common\function.php 第 46 行.
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-24T10:40:05+08:00 ] 127.0.0.1 /tp/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T10:40:09+08:00 ] 127.0.0.1 /tp/home/user/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+NOTIC: [8] Undefined variable: uid D:\wamp\www\tp\Application\Home\Common\function.php 第 46 行.
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = null LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-24T10:41:25+08:00 ] 127.0.0.1 /tp/home/user/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T10:41:38+08:00 ] 127.0.0.1 /tp/home/user/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: uid D:\wamp\www\tp\Application\Home\Common\function.php 第 49 行.
+
+[ 2016-03-24T10:41:42+08:00 ] 127.0.0.1 /tp/home/user/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: uid D:\wamp\www\tp\Application\Home\Common\function.php 第 49 行.
+
+[ 2016-03-24T10:42:12+08:00 ] 127.0.0.1 /tp/home/user/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-03-24T10:43:12+08:00 ] 127.0.0.1 /tp/home/user/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\tp\ThinkPHP\Library\Think\Model.class.php 第 222 行.
+SQL: SELECT `vote_number` FROM `user` WHERE ( uid=1120131205 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:44:09+08:00 ] 127.0.0.1 /tp/home/user/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\tp\ThinkPHP\Library\Think\Model.class.php 第 222 行.
+SQL: SELECT `vote_number` FROM `user` WHERE ( uid=1120131205 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:44:48+08:00 ] 127.0.0.1 /tp/home/user/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\tp\ThinkPHP\Library\Think\Model.class.php 第 222 行.
+SQL: SELECT `vote_number` FROM `user` WHERE ( uid=1120131205 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T10:44:57+08:00 ] 127.0.0.1 /tp/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T10:45:19+08:00 ] 127.0.0.1 /tp/home/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `password` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 199 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 213 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 221 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+NOTIC: [2] Missing argument 5 for require_https_url(), called in D:\wamp\www\tp\Application\Home\Common\function.php on line 226 and defined D:\wamp\www\tp\Application\Home\Common\function.php 第 152 行.
+NOTIC: [8] Undefined variable: cookie D:\wamp\www\tp\Application\Home\Common\function.php 第 176 行.
+SQL: INSERT INTO `user` (`uid`,`username`,`major_class`,`img_url`,`password`) VALUES ('1120131219','段荣成','信息与电子学院','http://api.info.bit.edu.cn/pub/registeredPerson/v1/showPhoto?uuid=bed4c4cb-1509-4968-af06-1b462147bda1','fb26b0a5d7647739b08783cfb3b562c6') [ RunTime:0.0660s ]
+SQL: SELECT `password` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\tp\Application\Home\Controller\UserController.class.php 第 44 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:45:20+08:00 ] 127.0.0.1 /tp/home/user/index.bit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `is_ban` FROM `user` WHERE `uid` = 1120131219 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\tp\ThinkPHP\Library\Think\Model.class.php 第 222 行.
+SQL: SELECT `vote_number` FROM `user` WHERE ( uid=1120131205 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:46:56+08:00 ] 127.0.0.1 /tp/home/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-03-24T10:49:14+08:00 ] 127.0.0.1 /tp/home/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-24T10:57:49+08:00 ] 127.0.0.1 /tp/home/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `public` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `public` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=0 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `message` WHERE ( is_biaobaiqiang=1 ) ORDER BY send_time desc LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `donate` [ RunTime:0.0020s ]
+SQL: SELECT count(*) FROM `donate` LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-03-24T14:33:30+08:00 ] 127.0.0.1 /tp/home/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: admin D:\wamp\www\tp\Application\Home\Common\function.php 第 36 行.
+

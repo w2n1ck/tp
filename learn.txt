@@ -15,3 +15,9 @@ html空格实现
 <div style="width:500px; height:400px; background:red; border:1px solid red;">
 <div style="width:250px; height:200px; background:white; float:right;"></div>
 </div>
+
+disable input标签
+<input  ...     disabled>
+
+
+display:inline-block 同行，同块

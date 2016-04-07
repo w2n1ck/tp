@@ -25,7 +25,7 @@ if($PostKey==$encodeStr)
 {
 	if($ErrCode=="0") //支付成功
 	{
-		//设置为成功订单,主意订单的重复处理
+		//header("Location: /tp/Home/Index/donate/result/"
 	}
 	else
 	{
